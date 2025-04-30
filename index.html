@@ -2,15 +2,99 @@
 <html lang="ja">
 
 <head>
-    <title>emergent's website</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Satoshi Yoshikawa</title>
+    <link rel="icon" href="favicon.png" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
-<body>
-    <h1>emergent's website</h1>
+<body class="bg-gray-100 text-gray-900 min-h-screen flex items-center justify-center p-4">
+    <div class="bg-white shadow-xl rounded-xl p-8 max-w-sm w-full text-center">
+        <img src="favicon.png" alt="Profile" class="w-24 h-24 mx-auto mb-4 rounded-full shadow" />
+        <h1 class="text-2xl font-bold mb-1">Satoshi Yoshikawa</h1>
+        <p class="text-sm text-gray-500 mb-4">Software Developer / Rust Enthusiast</p>
+        <div class="flex justify-center space-x-6 mt-4">
+            <a href="https://github.com/emergent" class="bg-black p-1 rounded hover:opacity-80" aria-label="GitHub">
+                <img src="images/github-mark-white.png" alt="GitHub" class="w-6 h-6" />
+            </a>
+            <a href="https://x.com/emergent" class="bg-black p-1 rounded hover:opacity-80" aria-label="X (Twitter)">
+                <img src="images/logo-white.png" alt="X (Twitter)" class="w-6 h-6" />
+            </a>
+        </div>
+        <div class="mt-6 text-left">
+            <h2 class="text-lg font-semibold mb-4">Works</h2>
 
-    <ul>
-        <li><a href="webgpu-tutorial/index.html">Game of Life simulation (using WebGPU)</a></li>
-    </ul>
+            <div class="space-y-4">
+                <!-- 2024 -->
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-1">2024</h3>
+                    <ul class="space-y-1 text-sm text-blue-600 list-inside">
+                        <li>
+                            🎤 <a href="https://speakerdeck.com/emergent/rust-tokyo-2024-comparing-onnx-crates"
+                                target="_blank" class="hover:underline">
+                                Rust.Tokyo 2024：ONNX推論クレートの比較と実装奮闘記
+                            </a>
+                        </li>
+                        <li>
+                            📘 <a href="https://www.kodansha.co.jp/book/products/0000398182" target="_blank"
+                                class="hover:underline">
+                                RustによるWebアプリケーション開発（共著）
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 2022 -->
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-1">2022</h3>
+                    <ul class="space-y-1 text-sm text-blue-600 list-inside">
+                        <li>
+                            📘 <a href="https://www.shuwasystem.co.jp/book/9784798061702.html" target="_blank"
+                                class="hover:underline">
+                                実践Rustプログラミング入門（共著）
+                            </a>
+                        </li>
+                        <li>
+                            📰 <a href="https://gihyo.jp/magazine/wdpress/archive/2022/vol131" target="_blank"
+                                class="hover:underline">WEB+DB PRESS Vol.131 特集「Rust入門」</a>
+                        </li>
+                        <li>
+                            🧑‍💼 <a href="https://gihyo.jp/dev/serial/01/technical_field/0006" target="_blank"
+                                class="hover:underline">
+                                ちょっと気になる隣の技術畑「Rustが今、流行っている理由とは」（gihyo.jp）
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- 2020 -->
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-1">2020</h3>
+                    <ul class="space-y-1 text-sm text-blue-600 list-inside">
+                        <li>
+                            📘 <a href="https://www.shuwasystem.co.jp/book/9784798061702.html" target="_blank"
+                                class="hover:underline">
+                                実践Rustプログラミング入門（共著）
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- その他 -->
+                <div>
+                    <h3 class="font-semibold text-gray-700 mb-1">その他</h3>
+                    <ul class="space-y-1 text-sm text-blue-600 list-inside">
+                        <li>
+                            🛠️ <a href="projects.html" class="hover:underline">
+                                その他のプロジェクト一覧（サイト内ページ）
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
